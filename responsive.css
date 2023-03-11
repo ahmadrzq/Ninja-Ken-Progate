@@ -1,0 +1,17 @@
+/* Tablet */
+@media(max-width:1000px){
+    .bar{
+        display: block !important;
+    }
+
+    .header-list{
+        display: none;
+    }
+
+    
+}
+
+/* Mobile */
+@media(max-width:670px){
+
+}

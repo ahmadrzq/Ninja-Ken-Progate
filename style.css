@@ -21,6 +21,16 @@ header {
   font-weight: bold;
 }
 
+.bar{
+    display: none;
+    color:white;
+    font-size: 30px;
+    line-height: 80px;
+    float:right;
+    padding: 0 40px;
+    cursor: pointer;
+}
+
 .header-list li {
   float: left;
   line-height: 80px;
