@@ -70,4 +70,27 @@ header{
 }
 /* About Me */
 
-/*  */
+/* Project */
+.projects{
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.projects h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.projects-item{
+    display: flex;
+}
+
+.project img{
+    width: 70%;
+}
+
+.project p{
+    margin-top: 20px;
+}
+/* Project */
