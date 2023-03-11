@@ -6,6 +6,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Header */
 header{
     background-color: #404146ff;
     height: 80px;
@@ -27,3 +28,26 @@ header{
     color: white;
     font-weight: 600;
 }
+/* Header */
+
+
+/* Hero */
+.hero{
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 100px;
+    color: #404146ff;
+}
+
+.hero span{
+    color: #F1D00Eff;
+}
+
+.hero h3{
+    font-size: 35px;
+    font-weight: 300;
+}
+/* Hero */
