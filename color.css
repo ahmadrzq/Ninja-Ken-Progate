@@ -1,6 +1,8 @@
 /* CSS HEX */
---gold: #F1D00Eff;
---white-smoke: #F4F4F4ff;
---onyx: #404146ff;
---flax: #F7E989ff;
---dim-gray: #66676Bff;
+*{
+    color: #F1D00Eff;
+    color: #F4F4F4ff;
+    color: #404146ff;
+    color: #F7E989ff;
+    color: #66676Bff;
+}
