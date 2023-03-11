@@ -1,96 +1,130 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Header */
-header{
-    background-color: #404146ff;
-    height: 80px;
+header {
+  background-color: #404146ff;
+  height: 80px;
 }
 
-.header-logo{
-    padding: 0px 40px;
-    line-height: 80px;
-    font-size: 32px;
-    color: white;
-    float: left;
-    font-weight: bold;
+.header-logo {
+  padding: 0px 40px;
+  line-height: 80px;
+  font-size: 32px;
+  color: white;
+  float: left;
+  font-weight: bold;
 }
 
-.header-list li{
-    float: left;
-    line-height: 80px;
-    margin-right: 30px;
-    color: white;
-    font-weight: 600;
+.header-list li {
+  float: left;
+  line-height: 80px;
+  margin-right: 30px;
+  color: white;
+  font-weight: 600;
 }
 /* Header */
-
 
 /* Hero */
-.hero{
-    padding: 80px 0;
-    text-align: center;
+.hero {
+  padding: 80px 0;
+  text-align: center;
 }
 
-.hero h1{
-    font-size: 100px;
-    color: #404146ff;
+.hero h1 {
+  font-size: 100px;
+  color: #404146ff;
 }
 
-.hero span{
-    color: #F1D00Eff;
+.hero span {
+  color: #f1d00eff;
 }
 
-.hero h3{
-    font-size: 35px;
-    font-weight: 300;
+.hero h3 {
+  font-size: 35px;
+  font-weight: 300;
 }
 
-.hero img{
-    width: 250px;
+.hero img {
+  width: 250px;
 }
 /* Hero */
 
 /* About Me */
-.about-me{
-    background-color: #F4F4F4ff;
-    padding: 80px 150px;
-    text-align: center;
+.about-me {
+  background-color: #f4f4f4ff;
+  padding: 80px 150px;
+  text-align: center;
 }
 
-.about-me h1{
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 20px;
+.about-me h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 /* About Me */
 
 /* Project */
-.projects{
-    padding: 80px 20px;
-    text-align: center;
+.projects {
+  padding: 80px 20px;
+  text-align: center;
 }
 
-.projects h1{
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 20px;
+.projects h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
-.projects-item{
-    display: flex;
+.projects-item {
+  display: flex;
 }
 
-.project img{
-    width: 70%;
+.project img {
+  width: 70%;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.75);
 }
 
-.project p{
-    margin-top: 20px;
+.project p {
+  margin-top: 20px;
 }
 /* Project */
+
+/* Contact Me */
+.contact-me {
+  padding: 80px 20px;
+  background-color: #f4f4f4ff;
+  text-align: center;
+}
+
+.contact-me h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.row {
+  margin: 30px;
+}
+
+.row input,
+.row textarea {
+  padding: 15px;
+  width: 60%;
+  border: none;
+  border-radius: 5px;
+}
+
+.submit{
+  border-radius: 5px;
+  max-width: 40%;
+  padding: 15px;
+  background-color: #f7e989ff;
+  border: none;
+}
+/* Contact Me */
