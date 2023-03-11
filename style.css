@@ -97,7 +97,7 @@ header {
 
 /* Contact Me */
 .contact-me {
-  padding: 80px 20px;
+  padding: 100px 20px;
   background-color: #f4f4f4ff;
   text-align: center;
 }
@@ -120,7 +120,7 @@ header {
   border-radius: 5px;
 }
 
-.submit{
+.submit {
   border-radius: 5px;
   max-width: 40%;
   padding: 15px;
@@ -128,3 +128,27 @@ header {
   border: none;
 }
 /* Contact Me */
+
+/* Footer */
+footer {
+  background-color: #404146ff;
+  color: white;
+  height: 180px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
+
+/* Footer */
