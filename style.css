@@ -10,6 +10,10 @@
 header {
   background-color: #404146ff;
   height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
 }
 
 .header-logo {
@@ -21,14 +25,14 @@ header {
   font-weight: bold;
 }
 
-.bar{
-    display: none;
-    color:white;
-    font-size: 30px;
-    line-height: 80px;
-    float:right;
-    padding: 0 40px;
-    cursor: pointer;
+.bar {
+  display: none;
+  color: white;
+  font-size: 30px;
+  line-height: 80px;
+  float: right;
+  padding: 0 40px;
+  cursor: pointer;
 }
 
 .header-list li {
@@ -42,7 +46,7 @@ header {
 
 /* Hero */
 .hero {
-  padding: 80px 0;
+  padding: 150px 0;
   text-align: center;
 }
 
@@ -76,7 +80,7 @@ header {
 .about-me h1 {
   font-size: 30px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 /* About Me */
 
@@ -89,7 +93,7 @@ header {
 .projects h1 {
   font-size: 30px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .projects-item {
@@ -116,7 +120,7 @@ header {
 .contact-me h1 {
   font-size: 30px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .row {
